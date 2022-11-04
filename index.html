@@ -14,32 +14,47 @@
 
 <body>
     <!-- Navigation Bar -->
+
     <section class="navigate">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-md-8 col-lg-4">
                     <h1 class="comp-logo"><a class="navbar-brand" href="#">Ramki</a></h1>
                 </div>
-                <div class="col-lg-8">
+                <div class=" col-md-2 col-lg-8">
                     <nav class="navlinks navbar navbar-expand-lg" id="navbarSupportedContent">
                         <ul class="links navbar-nav ms-auto">
-                            <li class="link nav-item active" id="active"><a class="nav-link" href="#">HOME</a></li>
-                            <li class="link nav-item"><a class="nav-link" href="#">ABOUT US</a> </li>
-                            <li class="link nav-item"><a class="nav-link" href="#">SERVICES</a></li>
-                            <li class="link nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-                            <li class="link nav-item"><a class="nav-link" href="#">BLOG</a></li>
-                            <li class="link nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                            <li class="link nav-item active" id="active"><a class="nav-link" href="#home">HOME</a></li>
+                            <li class="link nav-item"><a class="nav-link" href="#about">ABOUT US</a> </li>
+                            <li class="link nav-item"><a class="nav-link" href="#service">SERVICES</a></li>
+                            <li class="link nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                            <li class="link nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
+                            <li class="link nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                         </ul>
-                        <!-- <div class="menu-cont">
-                            <iconify-icon icon="fa6-solid:bars"></iconify-icon>
-                        </div> -->
                     </nav>
+                    <div class="menu-cont">
+                        <iconify-icon icon="fa6-solid:bars" class="bar-icon">
+                        </iconify-icon>
+                        <div class="menu-show">
+                            <ul class="menu-links">
+                                <li class="menu-link"><a href="#home" class="menu-a">Home</a></li>
+                                <li class="menu-link"><a href="#about" class="menu-a">About Us</a></li>
+                                <li class="menu-link"><a href="#service" class="menu-a">Services</a></li>
+                                <li class="menu-link"><a href="#portfolio" class="menu-a">Portfolio</a></li>
+                                <li class="menu-link"><a href="#blog" class="menu-a">Blog</a></li>
+                                <li class="menu-link"><a href="#contact" class="menu-a">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <!-- Home Page -->
-    <section class="home">
+    
+    <section class="home" id="home">
         <div class="container home-page">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex home-cont">
@@ -78,7 +93,8 @@
     </section>
 
     <!-- About Me  -->
-    <section class="about py-5">
+    
+    <section class="about py-5" id="about">
         <div class="container about-page">
             <div class="row">
                 <div class="col-lg-6">
@@ -166,8 +182,10 @@
             </div>
         </div>
     </section>
+    
     <!-- My Services -->
-    <section class="service py-5">
+    
+    <section class="service py-5" id="service">
         <div class="container">
             <div class="row">
                 <div class="service-head text-center ">
@@ -310,7 +328,8 @@
     </section>
 
     <!-- My Portfolio Section -->
-    <section class="portfolio py-5">
+    
+    <section class="portfolio py-5" id="portfolio">
         <div class="container">
             <div class="portfolio-head ">
                 <h1 class="portfolio-heading heading">My Portfolio</h1>
@@ -382,6 +401,7 @@
     </section>
 
     <!-- Testimonial   -->
+   
     <section class="test pt-5">
         <div class="container">
             <div class="row">
@@ -421,9 +441,10 @@
             </div>
         </div>
     </section>
+   
     <!-- Latest Blog -->
 
-    <section class="blog py-5">
+    <section class="blog py-5" id="blog">
         <div class="container">
             <div class="blog-head-cont pb-4">
                 <h1 class="blog-head heading">
@@ -488,7 +509,7 @@
 
     <!-- Contact Me    -->
 
-    <section class="contact py-5">
+    <section class="contact py-5" id="contact">
         <div class="contanct-head">
             <h1 class="contanct-heading heading">
                 Contact us
@@ -592,7 +613,9 @@
         </div>
     </footer>
 
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js">
+    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
